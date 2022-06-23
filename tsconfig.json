@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // what is the version of javascript that will be generated when compiling
+
+    "outDir": "dist/js", //where will the files that will be compiled by TS go
+    "noEmitOnError": true, //does not compile when there are files with error
+    "removeComments": true //uncomment compiled files
+    // "noImplicitAny": true, //so that the typescript does not automatically accept type any when some variable is not typed
+  },
+  "include": ["app/**/*"] //path that the files that will be read bt typescript are. Here I say it's all subfolders and any file
+}
