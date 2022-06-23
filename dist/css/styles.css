@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+form button[type="submit"] {
+  background: #007bff;
+  padding: 12px;
+  color: white;
+  margin-top: 15px;
+
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alunos-table table {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.alunos-table table tbody tr {
+  text-align: center;
+}
+
+.mensagemView {
+  visibility: hidden;
+
+  text-align: center;
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  border-radius: 5px;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
